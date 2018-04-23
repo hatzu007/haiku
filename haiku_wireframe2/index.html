@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haiku Japanese Bistro</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+<!--NAVIGATION BAR-->
+<div class="container">
+    <ul class="navbar">
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="#deliver">DELIVERY</a></li>
+        <img class="haiku_logo" src="haiku.png" height="160px" width="200px">
+        <li><a href="#reserve">RESERVATION</a></li>
+        <li><a href="#visit">LOCATION</a></li>
+    </ul>
+    <!--END NAV-->
+
+    <!--SUSHI IMAGE CONTAINER HOME PAGE-->
+
+    <div class="sushi_img"><!--slideshow container-->
+        <div class="mySlides fade">
+            <img src="sushi.jpg" style="width: 1180px;">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sushi2.jpg" style="width:1180px;">
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="welcome"><span>WELCOME</span><span>TO</span><span>HAIKU</span><!--WELCOME-->
+        <p class="paragraph">Welcome to Haiku, Minneapolis! We are a Japanese Bistro and Sushi Bar. Our newly
+            remodeled location features spacious dining areas, a large sushi bar and full length bar. Whether it’s a
+            quick bite to eat during lunch break or dinner before your favorite opera, Haiku is a traditional Japanese
+            restaurant for all to enjoy. </p>
+        <a class="button_link" href="menu.html" target="_blank">MENUS</a>
+        <a class="button_link" href="happyhour01.html">HAPPY HOUR</a>
+    </div>
+    <div class="wineglass">
+        <img src="wine-glasses.png" width="442px" height="295px" alt="wine glasses"><span><img src="hibachi.jpg"
+                                                                                               width="442px"
+                                                                                               height="295px"
+                                                                                               alt="hibachi"></span>
+    </div>
+    <!--END WELCOME/IMAGE HOME PAGE-->
+    <!--BEGIN DELIVER PAGE-->
+    <div class="img_container">
+        <div class="deliver_img" id="deliver">
+            <img class="deliver_img" src="bitesquad.jpg" width="600px" height="400px">
+            <a href="https://www.bitesquad.com/food/haiku-japanese-bistro/260">
+                <button class="image_btn">DELIVER</button>
+            </a>
+        </div>
+    </div>
+    <div class="img_container">
+        <div class="online_img">
+            <img class="online_img" src="maxresdefault.jpg" width="600px" height="400px">
+            <a href="https://www.beyondmenu.com/33965/minneapolis/haiku-japanese-bistro-minneapolis-55414.aspx#all-day-menu">
+                <button class="image_btn2">ORDER ONLINE</button>
+            </a>
+        </div>
+    </div>
+    <div class="reserve_form" id="reserve">
+        <p class="reserve">RESERVE A TABLE</p>
+        <form action="/lirestuarant@yahoo.com">
+            <label for="fname">First & Last Name</label>
+            <input type="text" id="fname" name="firstname">
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="guests">Date</label>
+            <select id="date" name="date">
+                <option value="4">4/17</option>
+                <option value="5">4/18</option>
+                <option value="6">4/19</option>
+                <option value="6">4/20</option>
+                <option value="6">4/21</option>
+                <option value="6">4/22</option>
+                <option value="6">4/23</option>
+            </select>
+
+            <label for="guests">Number of Guests</label>
+            <select id="guests" name="guests">
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="6">7</option>
+                <option value="6">8</option>
+                <option value="6">9</option>
+                <option value="6">10</option>
+            </select>
+
+            <label for="time">Time</label>
+            <select id="time" name="time">
+                <option value="4">4:30</option>
+                <option value="5">4:45</option>
+                <option value="6">5:00</option>
+                <option value="6">5:15</option>
+                <option value="6">5:30</option>
+                <option value="6">5:45</option>
+                <option value="6">6:00</option>
+            </select>
+            <input type="submit" value="RESERVE">
+        </form>
+    </div>
+    <div class="google" id="visit">
+        <iframe class="googlemap"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.535350758737!2d-93.23152068472328!3d44.97343477407672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b332896fceda19%3A0x246282ab8acc9b4c!2sHaiku+Japanese+Bistro!5e0!3m2!1sen!2sus!4v1519680591666"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="visit">
+        <p class="welcome2"> VISIT US </p>
+        <p class="paragraph2">620 Washington Ave SE</p>
+        <p class="paragraph2">Minneapolis, MN 55414</p>
+        <p class="paragraph2">612-331-8888</p>
+    </div>
+    <div class="hours">
+        <p class="welcome3">HOURS</p>
+        <table>
+            <tr>
+                <td> M - W</td>
+                <td> 11AM - 10PM</td>
+            </tr>
+            <tr>
+                <td> TH - SA</td>
+                <td> 11AM - 11PM</td>
+            </tr>
+            <tr>
+                <td> SU</td>
+                <td> 12AM - 10PM</td>
+            </tr>
+        </table>
+    </div>
+    <div class="blue_box">
+        <p class="copywright">&copy; 2018 HAIKU JAPANESE BISTRO.</p>
+    </div>
+</div><!--END OF CONTAINER-->
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 4000);
+    }
+</script>
+</body>
+</html>

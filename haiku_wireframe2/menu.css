@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.whole_container {
+    width: 1180px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+}
+.menu {
+    width: 1180px;
+    height: 100px;
+    display: block;
+    color: #B85151;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 65px;
+}
+.container {
+    width: 590px;
+    background-color: white;
+    position: relative;
+    float: left;
+    padding-left: 160px;
+    padding-top: 17px;
+}
+.container2 {
+    width: 590px;
+    background-color: white;
+    position: relative;
+    float: right;
+    padding-left: 160px;
+}
+
+button {
+    width: 194px;
+    height: 49px;
+    text-align: center;
+    position: relative;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 36px;
+  
+}
+.dinner_button {
+    border: solid #0D394E 2px;
+    background-color: white;
+    color: #0D394E;
+    margin: 0 auto;
+    display: inline-block;
+}
+.collapsible {
+    background-color: white;
+    color: #0D394E;
+    cursor: pointer;
+    padding: 18px;
+    width: 500px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    font-family: "Gill Sans", sans-serif;
+    display: block;
+}
+.active, .collapsible:hover {
+    background-color: transparent;
+    color: #B85151;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    color: #B85151;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+}
